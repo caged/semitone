@@ -1,0 +1,28 @@
+{
+  "name": "semitone",
+  "version": "0.0.1",
+  "description": "a data library for musical tones",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "music",
+    "scales",
+    "tones",
+    "chords",
+    "aeolian",
+    "major",
+    "minor"
+  ],
+  "author": "Justin Palmer",
+  "license": "ISC",
+  "devDependencies": {
+    "@rollup/plugin-json": "^4.1.0",
+    "@rollup/plugin-node-resolve": "^11.0.1",
+    "rollup": "^2.36.1"
+  },
+  "dependencies": {
+    "@tonaljs/tonal": "^4.6.0"
+  }
+}

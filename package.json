@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "build": "rollup -c",
-    "test": "ava"
+    "test": "ava",
+    "pretest": "npm run build"
   },
   "keywords": [
     "music",
